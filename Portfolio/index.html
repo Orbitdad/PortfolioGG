@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh Suresh Mandavkar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./orbit.png" type="image/x-icon">
+
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo" onclick="window.location.href='page.html'">
+                <img src="./orbit.png" alt="Adarsh Suresh Mandavkar">
+                <h1>OrbiT</h1>
+            </div>
+
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+            <ul id="nav-links">
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#tech-stack" onclick="closeMenu()">Tech Stack</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <h1>Hi, I'm Adarsh Suresh Mandavkar</h1>
+        <p>Frontend Developer </p>
+        <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+                I am <strong>Adarsh Suresh Mandavkar</strong>, a results-driven <strong>Frontend Developer</strong> specializing in 
+                <strong>React.js, JavaScript, and Tailwind CSS</strong>. I create scalable, high-performance web applications 
+                with a strong focus on clean architecture, responsiveness, and seamless user experiences.
+            </p>
+    
+            <p class="about-text">
+                With a keen eye for design and functionality, I integrate modern UI/UX principles to develop intuitive and 
+                engaging digital solutions. Currently pursuing a <strong>B.Sc in IT at VNDC</strong>, I continuously refine 
+                my expertise through hands-on projects in <strong>SPAs, interactive dashboards, and dynamic web interfaces</strong>.
+            </p>
+    
+            <p class="about-text">
+                I am committed to delivering <strong>efficient, scalable, and visually refined frontend solutions</strong>.  
+                Open to collaboration and new opportunities—let’s build something exceptional.
+            </p>
+        </div>
+    </section>
+    
+    
+    
+
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="project-info">Project 1 <br> A modern web application showcasing interactive UI elements.
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./project2.png" alt="Project 2">
+                <div class="project-info">Project 2 - A responsive e-commerce website with seamless user experience.
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./p2.png" alt="Project 3">
+                <div class="project-info">Project 3 - A dynamic portfolio site with futuristic animations.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech-stack" class="tech-stack">
+        <h2>Tech Stack</h2>
+        <div class="skills-box">
+            <h3>Coding Skills</h3>
+            <div class="skill-bar"><span>HTML</span><div class="bar"><div class="progress html"></div></div></div>
+            <div class="skill-bar"><span>CSS</span><div class="bar"><div class="progress css"></div></div></div>
+            <div class="skill-bar"><span>JavaScript</span><div class="bar"><div class="progress js"></div></div></div>
+            <div class="skill-bar"><span>NodeJS</span><div class="bar"><div class="progress nodeJS"></div></div></div>
+            <div class="skill-bar"><span>React</span><div class="bar"><div class="progress react"></div></div></div>
+            
+        </div>    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2025 Adarsh Suresh Mandavkar | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
